@@ -1,4 +1,7 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HEFz7NB1Jk8?si=s94uu7nqoztBFGsD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Introduction
+
+Check out our [introduction video](https://youtu.be/HEFz7NB1Jk8?si=IfRtyfH9DjMSho2L) to learn more about the project!
+
 
 🎮 Welcome to GSM - Game Server Manager!
 
