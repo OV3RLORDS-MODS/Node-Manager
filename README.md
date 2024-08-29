@@ -1,4 +1,5 @@
 ![Description of Image](https://steamuserimages-a.akamaihd.net/ugc/2413453859100926571/BA52E2B46FDF318C243F9A6BA6B84A1479880DAC/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
+
 Check out our [introduction video](https://youtu.be/HEFz7NB1Jk8?si=IfRtyfH9DjMSho2L) to learn more about the project!
 
 🎮 Welcome to GSM - Game Server Manager!
