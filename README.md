@@ -1,7 +1,4 @@
-## Introduction
-
 Check out our [introduction video](https://youtu.be/HEFz7NB1Jk8?si=IfRtyfH9DjMSho2L) to learn more about the project!
-
 
 🎮 Welcome to GSM - Game Server Manager!
 
