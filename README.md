@@ -29,6 +29,9 @@ Managing a Project Zomboid server manually can be challenging and time-consuming
 Official Discord:
 https://discord.gg/cWJFTbwwD2
 
+Steam Workshop:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3320238921
+
 ============================================================
 
 Custom GSM License
