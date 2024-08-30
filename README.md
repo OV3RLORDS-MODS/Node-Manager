@@ -28,7 +28,38 @@ Key Features:
 
 Why Choose GSM?
 
-Managing a Project Zomboid server manually can be challenging and time-consuming. GSM simplifies this process by consolidating all essential features into one powerful tool, making server management straightforward and efficient. Whether you’re running a small private server or a larger public one, GSM ensures smooth operation and effortless control.
+Managing a Project Zomboid server manually can be challenging and time-consuming. GSM simplifies this process by consolidating all essential features into one powerful tool, making server management straightforward and efficient. Whether you’re running a small private server or a larger public one, GSM ensures smooth operation and effortless control.#
+
+============================================================
+
+⚙️ Install Requirements
+
+Ensure Python 3.0+ is Installed:
+
+GSM requires Python 3.0 or higher. Download Python here if it's not already installed. During installation, check the box to add Python to your system PATH. This step is crucial for avoiding common setup issues. ✅
+
+🔽 Download GSM
+
+Extract and Set Up:
+
+-Extract the file to C:\Users\yourusername\gsm
+-Open Command Prompt (search cmd in the Start menu) or Terminal.
+-Type cd gsm
+
+Install the necessary Python packages by running the following commands:
+
+python -m pip install requests
+python -m pip install Pillow
+python -m pip install aiohttp
+python -m pip install psutil
+
+🚀 Run GSM:
+
+To start GSM, execute the following command in the same directory:
+
+python app.py
+
+============================================================
 
 Official Discord:
 https://discord.gg/cWJFTbwwD2
