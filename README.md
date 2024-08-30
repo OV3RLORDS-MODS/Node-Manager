@@ -4,6 +4,8 @@ Check out our [introduction video](https://youtu.be/HEFz7NB1Jk8?si=IfRtyfH9DjMSh
 
 🎮 Welcome to GSM - Game Server Manager!
 
+Download by clicking (Release) on the right menu.
+
 Thanks for stopping by! I’m thrilled to share GSM with you—a tool born out of my own frustration with the high costs, complex setups, and lackluster features of existing game server panels. After years of hosting game servers, I decided to create something better.
 
 As a solo developer, my focus with GSM is all about delivering top-notch functionality over flashy design. While the interface will evolve, my priority is to provide you with a powerful, effective tool that gets the job done. GSM isn’t your typical web panel—you’ll install it and run it directly from the terminal. Keep an eye on GitHub or join our Discord community for updates and announcements.
