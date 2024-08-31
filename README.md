@@ -5,6 +5,9 @@ Welcome to GSM - Game Server Manager V1.0.1! 🎮
 Download Link:
 https://github.com/OV3RLORDS-MODS/GSM
 
+Discord Link: 
+https://discord.gg/RERh9UBY
+
 -------------------------------------------
 
 GSM is your comprehensive solution for managing game servers with unmatched efficiency and ease. Built with Python, GSM offers an intuitive interface to simplify your server management tasks. Here’s what you can expect:
