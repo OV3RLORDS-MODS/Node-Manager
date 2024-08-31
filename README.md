@@ -7,6 +7,8 @@ Welcome to GSM - Game Server Manager V1.0.1! 🎮
 Download Link:
 https://github.com/OV3RLORDS-MODS/GSM
 
+-------------------------------------------
+
 GSM is your comprehensive solution for managing game servers with unmatched efficiency and ease. Built with Python, GSM offers an intuitive interface to simplify your server management tasks. Here’s what you can expect:
 
 🚀 Key Features:
@@ -27,6 +29,8 @@ System ⚙️: Monitor and manage system settings and server status.
 
 It's free for non-commercial use! 🚀 Managing a Project Zomboid server can be complex and time-consuming. GSM simplifies this by integrating all essential features into one powerful tool. Whether you're running a private server or a large public one, GSM ensures smooth operation and effortless control, making server management a breeze. Enjoy all the features without any cost—perfect for both small and large-scale server management!
 
+-------------------------------------------
+
 ⚙️ Installation Requirements:
 
 Python 3.0+: GSM requires Python 3.0 or higher.
@@ -42,6 +46,8 @@ Extract the downloaded file to C:\Users\yourusername\gsm.
 Open Command Prompt (search for cmd in the Start menu) or Terminal.
 
 Navigate to the GSM directory by typing: cd gsm
+
+-------------------------------------------
 
 Install Required Packages:
 
