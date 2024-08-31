@@ -36,17 +36,25 @@ Make sure to check the box to add Python to your system PATH during installation
 Download GSM:
 
 Extract and Set Up:
+
 Extract the downloaded file to C:\Users\yourusername\gsm.
+
 Open Command Prompt (search for cmd in the Start menu) or Terminal.
+
 Navigate to the GSM directory by typing: cd gsm
+
 Install Required Packages:
 
 Run the following commands to install the necessary Python packages:
 
 python -m pip install requests
+
 python -m pip install Pillow
+
 python -m pip install aiohttp
+
 python -m pip install psutil
+
 Run GSM:
 
 To start GSM, execute the following command in the same directory:
