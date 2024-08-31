@@ -12,10 +12,15 @@ GSM is your comprehensive solution for managing game servers with unmatched effi
 🚀 Key Features:
 
 Terminal 🖥️: Seamlessly access and control your server's command line interface.
+
 File Manager 📂: Effortlessly browse, manage, and organize your server files.
+
 Mods 🎮: Easily install, update, and manage game mods.
+
 Player Management 👥: Oversee and control player activity on your server.
+
 Discord Tools 💬: Connect with your server’s Discord community with ease.
+
 System ⚙️: Monitor and manage system settings and server status.
 
 🌟 Why Choose GSM?
