@@ -2,9 +2,6 @@
 
 Welcome to Node Manager - Game Server Manager V1.0.1! 🎮
 
-Download Link:
-https://github.com/OV3RLORDS-MODS/GSM
-
 Discord Link: 
 https://discord.gg/RERh9UBY
 
