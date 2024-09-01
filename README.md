@@ -1,6 +1,6 @@
 ![Alt text](https://steamuserimages-a.akamaihd.net/ugc/2413453859111980565/63252111844D611F362138EEB1CB5EC4DF4FADB0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
-Welcome to NodeManager - Game Server Manager V1.0.1! 🎮
+Welcome to Node Manager - Game Server Manager V1.0.1! 🎮
 
 Download Link:
 https://github.com/OV3RLORDS-MODS/GSM
@@ -10,7 +10,7 @@ https://discord.gg/RERh9UBY
 
 -------------------------------------------
 
-GSM is your comprehensive solution for managing game servers with unmatched efficiency and ease. Built with Python, GSM offers an intuitive interface to simplify your server management tasks. Here’s what you can expect:
+Node Manager is your comprehensive solution for managing game servers with unmatched efficiency and ease. Built with Python, GSM offers an intuitive interface to simplify your server management tasks. Here’s what you can expect:
 
 🚀 Key Features:
 
@@ -26,19 +26,19 @@ Discord Tools 💬: Connect with your server’s Discord community with ease.
 
 System ⚙️: Monitor and manage system settings and server status.
 
-🌟 Why Choose GSM?
+🌟 Why Choose Node Manager?
 
-It's free for non-commercial use! 🚀 Managing a Project Zomboid server can be complex and time-consuming. GSM simplifies this by integrating all essential features into one powerful tool. Whether you're running a private server or a large public one, GSM ensures smooth operation and effortless control, making server management a breeze. Enjoy all the features without any cost—perfect for both small and large-scale server management!
+It's free for non-commercial use! 🚀 Managing a Project Zomboid server can be complex and time-consuming. Node Manager simplifies this by integrating all essential features into one powerful tool. Whether you're running a private server or a large public one, Node Manager ensures smooth operation and effortless control, making server management a breeze. Enjoy all the features without any cost—perfect for both small and large-scale server management!
 
 -------------------------------------------
 
 ⚙️ Installation Requirements:
 
-Python 3.0+: GSM requires Python 3.0 or higher.
+Python 3.0+: Node Manager requires Python 3.0 or higher.
 
 Make sure to check the box to add Python to your system PATH during installation to avoid setup issues.
 
-Download GSM:
+Download Node Manager:
 
 Extract and Set Up:
 
@@ -75,12 +75,12 @@ python app.py
 Official Discord: Join our community for support and updates! Discord Server
 https://discord.gg/RERh9UBY
 
-Thank you for choosing GSM. We hope it makes managing your game servers a lot easier and more enjoyable. If you have any questions or need assistance, feel free to reach out on our Discord server. Happy gaming! 🚀
+Thank you for choosing Node Manager. We hope it makes managing your game servers a lot easier and more enjoyable. If you have any questions or need assistance, feel free to reach out on our Discord server. Happy gaming! 🚀
 ============================================================
 
-Custom GSM License
+Custom Node Manager License
 
-Copyright (c) 2024 GSM - GAME SERVER MANAGER 
+Copyright (c) 2024 Node Manager - GAME SERVER MANAGER 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to use
