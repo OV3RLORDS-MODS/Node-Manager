@@ -78,7 +78,7 @@ Thank you for choosing Node Manager. We hope it makes managing your game servers
 
 IMPORTANT NOTICE:
 
-Please be aware that the Node Manager mod is protected by copyright and may not be reuploaded or redistributed without explicit written permission from me. This includes any form of sharing, uploading to other sites, or including in mod packs. Unauthorized distribution will result in immediate action being taken to protect the intellectual property rights of Node Manager.
+Please be aware that the Node Manager is protected by copyright and may not be reuploaded or redistributed without explicit written permission from me. This includes any form of sharing, uploading to other sites, or including in mod packs. Unauthorized distribution will result in immediate action being taken to protect the intellectual property rights of Node Manager.
 
 ============================================================
 
