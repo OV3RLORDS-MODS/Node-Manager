@@ -73,6 +73,13 @@ Official Discord: Join our community for support and updates! Discord Server
 https://discord.gg/RERh9UBY
 
 Thank you for choosing Node Manager. We hope it makes managing your game servers a lot easier and more enjoyable. If you have any questions or need assistance, feel free to reach out on our Discord server. Happy gaming! 🚀
+
+============================================================
+
+IMPORTANT NOTICE:
+
+Please be aware that the Node Manager mod is protected by copyright and may not be reuploaded or redistributed without explicit written permission from me. This includes any form of sharing, uploading to other sites, or including in mod packs. Unauthorized distribution will result in immediate action being taken to protect the intellectual property rights of Node Manager.
+
 ============================================================
 
 Custom Node Manager License
