@@ -96,7 +96,7 @@ and modify the Software, subject to the following conditions:
    - Modifications are permitted, but any distributed copies or derivative works must comply with the non-commercial use restriction and include this license.
 
 4. **No Claim of Ownership**:
-   - You may not claim ownership of the Software or any modified versions thereof. All modifications must clearly indicate that they are based on the original work by [GSM].
+   - You may not claim ownership of the Software or any modified versions thereof. All modifications must clearly indicate that they are based on the original work by [Node Manager].
 
 5. **Disclaimer**:
    - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
