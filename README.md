@@ -39,11 +39,11 @@ Download Node Manager:
 
 Extract and Set Up:
 
-Extract the downloaded file to C:\Users\yourusername\gsm.
+Extract the downloaded file to C:\Users\yourusername\nodemanager.
 
 Open Command Prompt (search for cmd in the Start menu) or Terminal.
 
-Navigate to the Node Manager directory by typing: cd gsm
+Navigate to the Node Manager directory by typing: cd nodemanager
 
 -------------------------------------------
 
@@ -59,7 +59,7 @@ python -m pip install aiohttp
 
 python -m pip install psutil
 
-Run Node Panel:
+Run Node Manager:
 
 Execute the following command in the same directory:
 
