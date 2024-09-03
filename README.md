@@ -1,9 +1,8 @@
-We're thrilled to have you on board and introduce you to Node Manager V1.0.2 (Game Server Manager)
 [BETA] – still a work in progress, but already packed with features!
 
 📂 What Is Node Manager? 
 
-The GSM is a free tool designed to help you manage your game servers, specifically tailored for Project Zomboid. It provides an intuitive interface for starting, stopping, and configuring your server, as well as managing mods and scheduling tasks.
+The Node Manager is a free tool designed to help you manage your game servers, specifically tailored for Project Zomboid. It provides an intuitive interface for starting, stopping, and configuring your server, as well as managing mods and scheduling tasks.
 
 
 📂 GSM GitHub Repository
