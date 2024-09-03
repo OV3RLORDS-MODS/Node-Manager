@@ -38,7 +38,7 @@ Make sure to check the box to add Python to your system PATH during installation
 
 Download Node Manager:
 
-Rename is main file from Node-Manager-Main to nodemanager
+Rename is main folder from Node-Manager-Main to nodemanager
 
 Extract and Set Up:
 
