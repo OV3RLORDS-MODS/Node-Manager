@@ -1,4 +1,5 @@
-![Alt text]([https://steamuserimages-a.akamaihd.net/ugc/2413453859111980565/63252111844D611F362138EEB1CB5EC4DF4FADB0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true](https://steamuserimages-a.akamaihd.net/ugc/2413453859125140636/F016AE0311EF8AA127A40DA2A38189FA62E7AF36/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false))
+![Description of the image](https://steamuserimages-a.akamaihd.net/ugc/2413453859125140636/F016AE0311EF8AA127A40DA2A38189FA62E7AF36/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
+
 
 Welcome to Node Manager - Game Server Manager V1.0.1! 🎮
 
