@@ -70,7 +70,8 @@ class MainApp(tk.Tk):
             "Terminal": self.show_terminal_tab,
             "Info": self.show_info_tab,
             "Discord": self.open_discord_invite,
-            "Update": self.open_github_repo  # Add Update button
+            "Update": self.open_github_repo,
+            "Donate": self.open_donation_link  # Add Donate button
         }
 
         for text, command in buttons.items():
@@ -132,6 +133,10 @@ class MainApp(tk.Tk):
     def open_github_repo(self):
         url = "https://github.com/OV3RLORDS-MODS/Node-Manager"
         webbrowser.open(url)  # Opens the default web browser with the URL
+
+    def open_donation_link(self):
+        url = "https://buymeacoffee.com/dale123evex"  # Replace with your actual donation link
+        webbrowser.open(url)
 
 if __name__ == "__main__":
     app = MainApp()
