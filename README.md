@@ -6,6 +6,9 @@ Welcome to Node Manager - Game Server Manager V1.0.2! 🎮
 Discord Link: 
 https://discord.gg/RERh9UBY
 
+Donate: 
+https://buymeacoffee.com/dale123evex
+
 -------------------------------------------
 
 Node Manager is your comprehensive solution for managing game servers with unmatched efficiency and ease. Built with Python, Node Panel offers an intuitive interface to simplify your server management tasks. Here’s what you can expect:
