@@ -1,4 +1,4 @@
-[BETA] – still a work in progress, but already packed with features!
+[Node Manager] – still a work in progress, but already packed with features!
 
 📂 What Is Node Manager? 
 
