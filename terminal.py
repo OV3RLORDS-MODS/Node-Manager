@@ -1,92 +1,88 @@
 import tkinter as tk
-from tkinter import filedialog, scrolledtext, messagebox
+from tkinter import filedialog, messagebox
 import subprocess
+import psutil
 import threading
+import time
+import re
 
 class Terminal(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
         super().__init__(parent, *args, **kwargs)
         self.batch_file_path = None
         self.process = None
-        self.running = False
-        self.server_info = {
-            "Name": "N/A",
-            "IP": "N/A",
-            "Port": "N/A",
-            "Player Slots": "N/A"
-        }
-        self.server_info_labels = {}
-        self.command_history = []
-        self.history_index = -1
-        self.command_suggestions = [
-            "/setaccesslevel [player name] [level]",
-            "/kick [player name]",
-            "/ban [player name] [reason]",
-            "/spawnitem [item] [quantity]"
-        ]
-
-        self.configure(bg='#000000')
+        self.console_output = []
+        self.configure(bg='#2e2e2e')
         self.create_widgets()
-        self.update_styles()
 
     def create_widgets(self):
-        header_frame = tk.Frame(self, bg='#1e1e1e')
+        header_frame = tk.Frame(self, bg='#2e2e2e')
         header_frame.pack(pady=10, fill=tk.X)
 
-        button_frame = tk.Frame(header_frame, bg='#1e1e1e')
-        button_frame.pack(side=tk.TOP, fill=tk.X)
+        button_frame = tk.Frame(header_frame, bg='#2e2e2e')
+        button_frame.pack(side=tk.LEFT, padx=10)
 
-        self.select_button = tk.Button(button_frame, text="Select Batch File", command=self.select_batch_file, bg='#007ACC', fg='#FFFFFF', font=('Consolas', 12, 'bold'), relief=tk.RAISED, bd=3)
+        # Modern Button Class
+        class ModernButton(tk.Button):
+            def __init__(self, *args, **kwargs):
+                super().__init__(*args, **kwargs)
+                self.config(
+                    relief='flat',
+                    bg='#444444',
+                    fg='#00FF00',
+                    font=('Arial', 10, 'bold'),
+                    borderwidth=1,
+                    highlightbackground='#00FF00'
+                )
+                self.bind("<Enter>", self.on_hover)
+                self.bind("<Leave>", self.on_leave)
+                self.bind("<Button-1>", self.on_click)
+                self.original_bg = self.cget('background')
+                self.hover_bg = '#555555'
+                self.click_bg = '#666666'
+                self.original_fg = self.cget('foreground')
+                self.hover_fg = '#FFFFFF'
+
+            def on_hover(self, event):
+                self.config(bg=self.hover_bg, fg=self.hover_fg)
+
+            def on_leave(self, event):
+                self.config(bg=self.original_bg, fg=self.original_fg)
+
+            def on_click(self, event):
+                self.config(bg=self.click_bg)
+
+        # Buttons
+        self.select_button = ModernButton(button_frame, text="Select Batch", command=self.select_batch_file, width=12, height=2)
         self.select_button.grid(row=0, column=0, padx=5)
 
-        self.start_button = tk.Button(button_frame, text="Start Server", command=self.start_server, bg='#00FF00', fg='#000000', font=('Consolas', 12, 'bold'), relief=tk.RAISED, bd=3, state=tk.DISABLED)
+        self.start_button = ModernButton(button_frame, text="Start Server", command=self.start_server, width=12, height=2)
         self.start_button.grid(row=0, column=1, padx=5)
 
-        self.restart_button = tk.Button(button_frame, text="Restart Server", command=self.restart_server, bg='#FFCC00', fg='#000000', font=('Consolas', 12, 'bold'), relief=tk.RAISED, bd=3, state=tk.DISABLED)
+        self.restart_button = ModernButton(button_frame, text="Restart Server", command=self.restart_server, width=12, height=2)
         self.restart_button.grid(row=0, column=2, padx=5)
 
-        self.stop_button = tk.Button(button_frame, text="Stop Server", command=self.stop_server, bg='#FF0000', fg='#FFFFFF', font=('Consolas', 12, 'bold'), relief=tk.RAISED, bd=3, state=tk.DISABLED)
+        self.stop_button = ModernButton(button_frame, text="Stop Server", command=self.stop_server, width=12, height=2)
         self.stop_button.grid(row=0, column=3, padx=5)
 
-        self.edit_db_button = tk.Button(button_frame, text="EDIT DB", command=self.edit_db, bg='#007ACC', fg='#FFFFFF', font=('Consolas', 12, 'bold'), relief=tk.RAISED, bd=3)
-        self.edit_db_button.grid(row=0, column=4, padx=5)
+        # Search Box
+        search_frame = tk.Frame(header_frame, bg='#2e2e2e')
+        search_frame.pack(side=tk.RIGHT, padx=10)
 
-        info_frame = tk.Frame(self, bg='#000000')
-        info_frame.pack(pady=10, fill=tk.X)
+        self.search_entry = tk.Entry(search_frame, font=('Arial', 10), bg='#333333', fg='#00FF00', borderwidth=1, relief='flat')
+        self.search_entry.pack(side=tk.LEFT, padx=5)
+        self.search_entry.bind("<KeyRelease>", self.filter_console)
 
-        columns = ['Name', 'IP', 'Port', 'Player Slots']
-        for idx, key in enumerate(columns):
-            label = tk.Label(info_frame, text=f"{key}:", fg='#00FF00', bg='#000000', font=('Consolas', 12))
-            label.grid(row=0, column=2 * idx, padx=10, pady=2, sticky=tk.W)
-            value = tk.Label(info_frame, text=self.server_info[key], fg='#FFFFFF', bg='#000000', font=('Consolas', 12))
-            value.grid(row=0, column=2 * idx + 1, padx=10, pady=2, sticky=tk.W)
-            self.server_info_labels[key] = value
+        self.search_button = ModernButton(search_frame, text="Search", command=self.filter_console, width=8, height=1)
+        self.search_button.pack(side=tk.LEFT, padx=5)
 
-        self.console_frame = tk.Frame(self, bg='#000000')
+        # Console Output
+        self.console_frame = tk.Frame(self, bg='#2e2e2e')
         self.console_frame.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 
-        self.console_text = scrolledtext.ScrolledText(self.console_frame, height=20, wrap=tk.WORD, bg='#000000', fg='#00FF00', font=('Consolas', 12), state=tk.DISABLED)
+        self.console_text = tk.Text(self.console_frame, height=15, wrap=tk.WORD, bg='#000000', fg='#00FF00',
+                                    font=('Consolas', 10), state=tk.DISABLED)
         self.console_text.pack(fill=tk.BOTH, expand=True)
-
-        self.command_entry_frame = tk.Frame(self, bg='#000000')
-        self.command_entry_frame.pack(fill=tk.X, padx=10, pady=5)
-
-        self.command_entry = tk.Entry(self.command_entry_frame, font=('Consolas', 12), bg='#1e1e1e', fg='#00FF00', insertbackground='white')
-        self.command_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
-        self.command_entry.bind("<Return>", self.send_command)
-        self.command_entry.bind("<Up>", self.handle_keypress)
-        self.command_entry.bind("<Down>", self.handle_keypress)
-        self.command_entry.bind("<KeyRelease>", self.show_suggestions)
-
-        self.suggestion_listbox = tk.Listbox(self.command_entry_frame, bg='#1e1e1e', fg='#00FF00', font=('Consolas', 12), selectbackground='#007ACC', height=5)
-        self.suggestion_listbox.pack(side=tk.LEFT, fill=tk.Y)
-        self.suggestion_listbox.bind("<Double-1>", self.select_suggestion)
-
-    def update_styles(self):
-        self.configure(bg='#000000')
-        self.console_text.config(bg='#000000', fg='#00FF00')
-        self.command_entry.config(bg='#1e1e1e', fg='#00FF00', insertbackground='white')
-        self.suggestion_listbox.config(bg='#1e1e1e', fg='#00FF00')
 
     def select_batch_file(self):
         self.batch_file_path = filedialog.askopenfilename(
@@ -97,9 +93,10 @@ class Terminal(tk.Frame):
         if self.batch_file_path:
             self.start_button.config(state=tk.NORMAL)
             self.restart_button.config(state=tk.NORMAL)
+            self.stop_button.config(state=tk.NORMAL)
 
     def start_server(self):
-        if self.batch_file_path:
+        if self.batch_file_path and self.process is None:
             try:
                 self.process = subprocess.Popen(
                     [self.batch_file_path],
@@ -109,123 +106,81 @@ class Terminal(tk.Frame):
                     text=True,
                     shell=True
                 )
-                self.running = True
-                self.start_button.config(state=tk.DISABLED)
-                self.restart_button.config(state=tk.NORMAL)
-                self.stop_button.config(state=tk.NORMAL)
                 self.console_text.config(state=tk.NORMAL)
                 self.console_text.insert(tk.END, "Server started...\n")
                 self.console_text.config(state=tk.DISABLED)
                 self.read_output()
-                self.update_server_info()
+                self.start_button.config(state=tk.DISABLED)
+                self.stop_button.config(state=tk.NORMAL)
+                self.restart_button.config(state=tk.NORMAL)
             except Exception as e:
                 messagebox.showerror("Error", f"Failed to start server: {e}")
+
+    def stop_server(self):
+        if self.process:
+            try:
+                parent_pid = self.process.pid
+                parent = psutil.Process(parent_pid)
+                for child in parent.children(recursive=True):
+                    child.terminate()
+                parent.terminate()
+                self.process.wait()  # Wait for process to terminate
+                
+                # Allow some time for graceful shutdown
+                time.sleep(5)
+                if parent.is_running():
+                    for child in parent.children(recursive=True):
+                        child.kill()
+                    parent.kill()
+                
+                self.process = None
+                self.start_button.config(state=tk.NORMAL)
+                self.stop_button.config(state=tk.DISABLED)
+                self.restart_button.config(state=tk.DISABLED)
+                self.console_text.config(state=tk.NORMAL)
+                self.console_text.insert(tk.END, "Server stopped.\n")
+                self.console_text.config(state=tk.DISABLED)
+            except psutil.NoSuchProcess as e:
+                messagebox.showerror("Error", f"Process not found: {e}")
+            except psutil.AccessDenied as e:
+                messagebox.showerror("Error", f"Access denied: {e}")
+            except Exception as e:
+                messagebox.showerror("Error", f"Failed to stop server: {e}")
+        else:
+            messagebox.showwarning("Warning", "No server is running.")
 
     def restart_server(self):
         if self.process:
             self.stop_server()
+            # Wait for the stop operation to complete before starting the server again
+            time.sleep(2)  # You may adjust the sleep duration based on your needs
         self.start_server()
-
-    def stop_server(self):
-        if self.process:
-            self.process.terminate()
-            self.process.wait()  # Ensures the process is fully terminated
-            self.running = False
-            self.start_button.config(state=tk.NORMAL)
-            self.restart_button.config(state=tk.DISABLED)
-            self.stop_button.config(state=tk.DISABLED)
-            self.console_text.config(state=tk.NORMAL)
-            self.console_text.insert(tk.END, "Server stopped.\n")
-            self.console_text.config(state=tk.DISABLED)
-        else:
-            messagebox.showwarning("Warning", "No server is running.")
-
-    def send_command(self, event=None):
-        command = self.command_entry.get()
-        if command and self.process:
-            try:
-                self.process.stdin.write(command + "\n")
-                self.process.stdin.flush()
-                self.console_text.config(state=tk.NORMAL)
-                self.console_text.insert(tk.END, f"> {command}\n")
-                self.console_text.config(state=tk.DISABLED)
-                self.command_entry.delete(0, tk.END)
-                self.command_history.append(command)
-                self.history_index = len(self.command_history)
-                self.suggestion_listbox.place_forget()
-            except Exception as e:
-                messagebox.showerror("Error", f"Failed to send command: {e}")
 
     def read_output(self):
         if self.process:
             def stream_output():
                 for line in iter(self.process.stdout.readline, ''):
+                    self.console_output.append(line)
+                    self.console_text.config(state=tk.NORMAL)
+                    self.console_text.insert(tk.END, line)
+                    self.console_text.yview(tk.END)
+                    self.console_text.config(state=tk.DISABLED)
+                for line in iter(self.process.stderr.readline, ''):
+                    self.console_output.append(line)
                     self.console_text.config(state=tk.NORMAL)
                     self.console_text.insert(tk.END, line)
                     self.console_text.yview(tk.END)
                     self.console_text.config(state=tk.DISABLED)
 
-                if self.process.stderr:
-                    for line in iter(self.process.stderr.readline, ''):
-                        self.console_text.config(state=tk.NORMAL)
-                        self.console_text.insert(tk.END, line)
-                        self.console_text.yview(tk.END)
-                        self.console_text.config(state=tk.DISABLED)
-
             threading.Thread(target=stream_output, daemon=True).start()
 
-    def update_server_info(self):
-        # Dummy update; replace with actual logic to get server info
-        self.server_info['Name'] = "My Server"
-        self.server_info['IP'] = "127.0.0.1"
-        self.server_info['Port'] = "8080"
-        self.server_info['Player Slots'] = "20"
-
-        for key, label in self.server_info_labels.items():
-            label.config(text=self.server_info[key])
-
-    def handle_keypress(self, event):
-        if event.keysym == "Up":
-            if self.history_index > 0:
-                self.history_index -= 1
-                self.command_entry.delete(0, tk.END)
-                self.command_entry.insert(0, self.command_history[self.history_index])
-        elif event.keysym == "Down":
-            if self.history_index < len(self.command_history) - 1:
-                self.history_index += 1
-                self.command_entry.delete(0, tk.END)
-                self.command_entry.insert(0, self.command_history[self.history_index])
-            else:
-                self.command_entry.delete(0, tk.END)
-                self.history_index = len(self.command_history)
-
-    def show_suggestions(self, event=None):
-        query = self.command_entry.get()
-        self.suggestion_listbox.delete(0, tk.END)
-
-        if query:
-            for command in self.command_suggestions:
-                if command.startswith(query):
-                    self.suggestion_listbox.insert(tk.END, command)
-
-            if self.suggestion_listbox.size() > 0:
-                self.suggestion_listbox.place(x=self.command_entry.winfo_x(), y=self.command_entry.winfo_y() - self.suggestion_listbox.winfo_height())
-            else:
-                self.suggestion_listbox.place_forget()
-        else:
-            self.suggestion_listbox.place_forget()
-
-    def select_suggestion(self, event=None):
-        selected_command = self.suggestion_listbox.get(tk.ACTIVE)
-        if selected_command:
-            self.command_entry.delete(0, tk.END)
-            self.command_entry.insert(0, selected_command)
-            self.suggestion_listbox.place_forget()
-            self.send_command()
-
-    def edit_db(self):
-        # Placeholder method to be implemented in terminal_edit_db.py
-        subprocess.run(["python", "terminal_edit_db.py"])
+    def filter_console(self, event=None):
+        search_text = self.search_entry.get()
+        self.console_text.config(state=tk.NORMAL)
+        self.console_text.delete('1.0', tk.END)
+        filtered_output = [line for line in self.console_output if re.search(search_text, line, re.IGNORECASE)]
+        self.console_text.insert(tk.END, ''.join(filtered_output))
+        self.console_text.config(state=tk.DISABLED)
 
 if __name__ == "__main__":
     root = tk.Tk()
