@@ -1,7 +1,7 @@
 ![Description of the image](https://steamuserimages-a.akamaihd.net/ugc/2413453859125140636/F016AE0311EF8AA127A40DA2A38189FA62E7AF36/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
 
 
-Welcome to Node Manager - Game Server Manager V1.0.1! 🎮
+Welcome to Node Manager - Game Server Manager V1.0.2! 🎮
 
 Discord Link: 
 https://discord.gg/RERh9UBY
@@ -37,6 +37,8 @@ Python 3.0+: Node Manager requires Python 3.0 or higher.
 Make sure to check the box to add Python to your system PATH during installation to avoid setup issues.
 
 Download Node Manager:
+
+Rename is main file from Node-Manager-Main to nodemanager
 
 Extract and Set Up:
 
