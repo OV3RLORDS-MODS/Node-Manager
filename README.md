@@ -4,11 +4,6 @@
 
 The Node Manager is a free tool designed to help you manage your game servers, specifically tailored for Project Zomboid. It provides an intuitive interface for starting, stopping, and configuring your server, as well as managing mods and scheduling tasks.
 
-
-📂 GSM GitHub Repository
-Explore the project and access the source code here: GSM GitHub Repository
-https://github.com/OV3RLORDS-MODS/GSM
-
 ⚙️ Installation Requirements
 
 Python Version: Ensure you have Python 3.0 or higher installed.
