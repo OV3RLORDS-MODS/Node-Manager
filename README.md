@@ -7,8 +7,7 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 
 🖥️ Terminal Access:
 
-Overview: Intuitive interface for selecting the batch file used for server startup.
-
+- Overview: Intuitive interface for selecting the batch file used for server startup.
 - File Explorer Integration: Browse and select batch files directly from your system. 
 - File Validation: Automatically verifies that the selected batch file is valid and executable.
 
@@ -24,8 +23,6 @@ Overview: Intuitive interface for selecting the batch file used for server start
 
 🔄 Server Status Indicators:
 
-Keep a close eye on your server with comprehensive monitoring tools.
-
 - Visual Status Indicators: Instantly see if your server is online or offline with dynamic visual cues.
 - Detailed Server Metrics: View essential server information, including IP address, port, player slots, CPU usage, memory usage, and uptime.
 - Crash & Event Log: Track the last time the server crashed, was closed, or restarted for insights into server stability.
@@ -34,17 +31,14 @@ Keep a close eye on your server with comprehensive monitoring tools.
 
 🎨 Customization Options
 
-Change Text Color: Adjust console text color for readability or personal preference.
-
-Change Background Color: Modify the background color to suit different visual themes or accessibility needs.
-
-Save Preferences: Your preferences are saved across sessions for a consistent user experience.
+- Change Text Color: Adjust console text color for readability or personal preference.
+- Change Background Color: Modify the background color to suit different visual themes or accessibility needs.
+- Save Preferences: Your preferences are saved across sessions for a consistent user experience.
 
 ----------------------—-----------------------—-----------------------—--
 
 🛠️ Persistent Settings:
 
-Remember Last Used Batch File: Automatically loads the last used batch file for quick server startup.
-
-Automatic Save: All settings and preferences are automatically saved, ensuring Node Manager is always ready with your preferred configuration.
+- Remember Last Used Batch File: Automatically loads the last used batch file for quick server startup.
+- Automatic Save: All settings and preferences are automatically saved, ensuring Node Manager is always ready with your preferred configuration.
 
