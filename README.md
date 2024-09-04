@@ -111,6 +111,13 @@ Discord Webhook Tool
 - 🤖 Customize Bot Name: Set a custom bot name for messages sent to Discord.
 - 📜 Message Embeds: Include a title, description, image URL, and footer in the Discord message embeds.
 
+Premade Messages:
+
+- Start Message 🧟: Notifies that a Project Zomboid server is starting, complete with an exciting description and image.
+- Stop Message 🛑: Alerts when the server goes down, helping players prepare for the next encounter.
+- Restart Message 🔄: Informs about a server restart, urging players to get ready for the action to resume.
+- Custom Message: Allows sending personalized messages with your own title, description, image, and footer.
+  
 ===============================================================================
 
 🖥️ System Information
