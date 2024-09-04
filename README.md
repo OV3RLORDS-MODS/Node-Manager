@@ -52,7 +52,7 @@ Crash & Event Log: Logs and displays the last time the server crashed, was close
 - Personalized User Interface:
 
 Change Text Color: Customize the console text color to improve readability or match personal preferences.
-Change Background Color: Modify the background color of the console to suit different visual themes or accessibility needs.
+***Change Background Color: Modify the background color of the console to suit different visual*** themes or accessibility needs.
 Save Preferences: User preferences are saved across sessions for a consistent experience.
 
 - Persistent Settings
@@ -60,8 +60,6 @@ Save Preferences: User preferences are saved across sessions for a consistent ex
 Seamless User Experience:
 
 Remember Last Used Batch File: Automatically recalls and sets the last used batch file for quick server start-up.
-
-Command History Retention: Saves a history of all executed commands, enabling users to quickly access and reuse them in future sessions.
 
 Automatic Save: All settings and preferences are automatically saved, ensuring the GUI is always ready with your preferred configuration.
 
