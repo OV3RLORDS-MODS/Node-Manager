@@ -10,6 +10,7 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 - Overview: Intuitive interface for selecting the batch file used for server startup.
 - File Explorer Integration: Browse and select batch files directly from your system. 
 - File Validation: Automatically verifies that the selected batch file is valid and executable.
+- Start, stop and restart server with one click. 
 
 ----------------------—-----------------------—-----------------------—--
 
