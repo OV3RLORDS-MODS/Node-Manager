@@ -12,7 +12,7 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 - File Validation: Automatically verifies that the selected batch file is valid and executable.
 - Start, stop and restart server with one click. 
 
-=================================================================================================================================
+==============================================================================================================
 
 📊 Real-Time Log Monitoring:
 
