@@ -44,8 +44,8 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 
 🔍 Search and Sorting:
 
-Search Mods: Quickly search through your mods using the search bar to find specific entries.
-Sorting Options: Sort mods by name or date, making it easier to manage a large number of mods.
+- Search Mods: Quickly search through your mods using the search bar to find specific entries.
+- Sorting Options: Sort mods by name or date, making it easier to manage a large number of mods.
 
 ⚙️ Mod Installation and Management:
 
