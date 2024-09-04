@@ -35,7 +35,40 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 - Remembers Last Used Batch File: Automatically loads the last used batch file for quick server startup.
 - Automatic Save: All settings and preferences are automatically saved, ensuring Node Manager is always ready with your preferred configuration.
   
-==============================================================================================================
+===============================================================================
+
+🗂️ File Management Interface
+
+Directory Navigation and Management:
+
+- Breadcrumb Navigation: The current path is displayed, allowing you to keep track of your location within the file system.
+- Select Directory: Easily switch between directories using the "Select Directory" button.
+- Back Navigation: Move back to the previous directory using the "Back" button
+
+🔄 File Operations:
+
+- Upload Files/ZIPs: Upload single files or ZIP archives, which can be extracted directly within the interface.
+- Extract ZIPs: Select a ZIP file to extract its contents into the desired directory.
+- File Management: Perform common file operations such as View, Copy, Move, Rename, and Delete using dedicated buttons or context menus.
+
+🔍 Search Functionality:
+
+- Search Bar: Filter the list of files and directories based on a search query, making it easier to locate specific items.
+
+🖱️ Context Menu:
+
+- Right-Click Actions: Access file operations like View, Copy, Move, Rename, and Delete through a context menu by right-clicking on any file or folder.
+
+📝 File Viewing and Editing:
+
+- View/Edit Files: Open text files in a new window to view or edit their content with save options.
+
+📤 File Uploads and Creation:
+
+- New Folder Creation: Create new directories directly from the interface.
+- Upload Files: Upload files from the local system to the current directory.
+
+=============================================================================== 
 
 📂 Mod Directory Management:
 
