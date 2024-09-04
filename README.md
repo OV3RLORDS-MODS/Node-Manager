@@ -5,11 +5,89 @@
 
 The Node Manager is a free tool designed to help you manage your game servers, specifically tailored for Project Zomboid. It provides an intuitive interface for starting, stopping, and configuring your server, as well as managing mods and scheduling tasks.
 
-🖥️: Terminal 
+🖥️:Terminal 
 
 Seamlessly access and control your server's command line interface.
 
-*Batch File Selection*: Allows you to select a batch file to start the server.Server Control:Start Server: Starts the server using the selected batch file.Stop Server: Stops the running server.Restart Server: Stops and then restarts the server.Console Output: Displays server output in a scrollable text area, allowing you to see logs or messages from the server.Command Execution: Lets you enter and send commands directly to the server from within the GUI.Server Status Indicators:Displays the server's current status (Online/Offline) with a visual indicator.Shows server information such as IP address, port, player slots, CPU usage, memory usage, and the last time the server crashed, closed, or restarted.Customization:Change Text Color: Lets you change the color of the console text.Change Background Color: Allows you to customize the background color of the console.Database Editing: Placeholder feature for editing the server's database.Persistent Settings:Remembers the last used batch file.Saves command history so that previously used commands can be accessed later.
+Server Management GUI: Enhanced Feature Set
+
+- Batch File Selection
+
+Intuitive File Selection:
+
+Overview: Provides an intuitive interface to easily select a batch file used for server startup.
+
+Features:
+
+File Explorer Integration: Allows users to browse and select the appropriate batch file from their system.
+
+File Validation: 
+
+Automatically checks if the selected batch file is valid and executable.
+
+Recent Files: Keeps a list of recently used batch files for quick access.
+
+Server Control
+
+- Effortless Server Management:
+
+Start Server:
+
+One-Click Start: Launches the server instantly using the selected batch file.
+Status Feedback: Displays immediate feedback on server start status.
+
+Stop Server:
+
+Graceful Shutdown: Stops the server safely, ensuring all processes are properly terminated.
+Force Stop Option: Provides an option to force-stop the server if it becomes unresponsive.
+
+Restart Server:
+
+Downtime Minimization: Ensures quick server restart to reduce downtime.
+
+Console Output
+
+- Real-Time Log Monitoring:
+
+Live Server Logs: Displays real-time server output in a scrollable and interactive text area.
+Search & Filter: Allows users to search and filter console logs for specific entries or errors.
+Copy & Export: Easily copy or export log data for analysis or troubleshooting.
+
+Command Execution
+
+- Direct Command Input:
+
+Command Line Interface: Embedded command line within the GUI for executing server commands directly.
+Command History: Stores command history, allowing users to re-run previous commands with ease.
+Auto-Complete: Offers command auto-completion based on server commands to enhance efficiency.
+
+Server Status Indicators
+
+- Comprehensive Server Monitoring:
+
+Visual Status Indicators: Displays server’s current status (Online/Offline) with a dynamic visual cue.
+Detailed Server Metrics: Shows essential server information such as IP address, port, player slots, CPU usage, memory usage, and uptime.
+Crash & Event Log: Logs and displays the last time the server crashed, was closed, or restarted, offering insights into server stability.
+
+Customization Options
+
+- Personalized User Interface:
+
+Change Text Color: Customize the console text color to improve readability or match personal preferences.
+Change Background Color: Modify the background color of the console to suit different visual themes or accessibility needs.
+Save Preferences: User preferences are saved across sessions for a consistent experience.
+
+- Persistent Settings
+
+Seamless User Experience:
+
+Remember Last Used Batch File: Automatically recalls and sets the last used batch file for quick server start-up.
+
+Command History Retention: Saves a history of all executed commands, enabling users to quickly access and reuse them in future sessions.
+
+Automatic Save: All settings and preferences are automatically saved, ensuring the GUI is always ready with your preferred configuration.
+
+==========================================
 
 📂: File Manager 
 
