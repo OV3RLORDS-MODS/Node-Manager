@@ -26,17 +26,9 @@ Overview: Intuitive interface for selecting the batch file used for server start
 
 Keep a close eye on your server with comprehensive monitoring tools.
 
-- Visual Status Indicators:
-
-Instantly see if your server is online or offline with dynamic visual cues.
-
--Detailed Server Metrics:
-
-View essential server information, including IP address, port, player slots, CPU usage, memory usage, and uptime.
-
-- Crash & Event Log: 
-
-Track the last time the server crashed, was closed, or restarted for insights into server stability.
+- Visual Status Indicators: Instantly see if your server is online or offline with dynamic visual cues.
+- Detailed Server Metrics: View essential server information, including IP address, port, player slots, CPU usage, memory usage, and uptime.
+- Crash & Event Log: Track the last time the server crashed, was closed, or restarted for insights into server stability.
 
 ----------------------—-----------------------—-----------------------—--
 
