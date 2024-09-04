@@ -9,10 +9,8 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 
 Overview: Intuitive interface for selecting the batch file used for server startup.
 
-- Batch File Selection:
-
-File Explorer Integration: Browse and select batch files directly from your system. 
-File Validation: Automatically verifies that the selected batch file is valid and executable.
+- File Explorer Integration: Browse and select batch files directly from your system. 
+- File Validation: Automatically verifies that the selected batch file is valid and executable.
 
 ----------------------—-----------------------—-----------------------—--
 
@@ -28,11 +26,17 @@ File Validation: Automatically verifies that the selected batch file is valid an
 
 Keep a close eye on your server with comprehensive monitoring tools.
 
-Visual Status Indicators: Instantly see if your server is online or offline with dynamic visual cues.
+- Visual Status Indicators:
 
-Detailed Server Metrics: View essential server information, including IP address, port, player slots, CPU usage, memory usage, and uptime.
+Instantly see if your server is online or offline with dynamic visual cues.
 
-Crash & Event Log: Track the last time the server crashed, was closed, or restarted for insights into server stability.
+-Detailed Server Metrics:
+
+View essential server information, including IP address, port, player slots, CPU usage, memory usage, and uptime.
+
+- Crash & Event Log: 
+
+Track the last time the server crashed, was closed, or restarted for insights into server stability.
 
 ----------------------—-----------------------—-----------------------—--
 
