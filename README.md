@@ -41,11 +41,16 @@ Crash & Event Log: Track the last time the server crashed, was closed, or restar
 - Customization Options
 
 Personalized User Interface:Change Text Color: Adjust console text color for readability or personal preference.
+
 Change Background Color: Modify the background color to suit different visual themes or accessibility needs.
+
 Save Preferences: Your preferences are saved across sessions for a consistent user experience.
-Persistent Settings:
-Remember Last Used Batch File: Automatically loads the last used batch file for quick server startup.
-Automatic Save: All settings and preferences are automatically saved, ensuring Node Manager is always ready with your preferred configuration.
 
 ----------------------—-----------------------—-----------------------—--
+
+Persistent Settings:
+
+Remember Last Used Batch File: Automatically loads the last used batch file for quick server startup.
+
+Automatic Save: All settings and preferences are automatically saved, ensuring Node Manager is always ready with your preferred configuration.
 
