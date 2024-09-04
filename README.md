@@ -16,6 +16,8 @@ File Explorer Integration: Browse and select batch files directly from your syst
 
 File Validation: Automatically verifies that the selected batch file is valid and executable.
 
+----------------------—-----------------------—-----------------------—--
+
 - Real-Time Log Monitoring:
 
 Live Server Logs: View real-time server output in a scrollable and interactive text area.
