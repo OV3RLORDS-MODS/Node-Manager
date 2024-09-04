@@ -17,43 +17,35 @@ Intuitive File Selection:
 
 Overview: Provides an intuitive interface to easily select a batch file used for server startup.
 
-Features:
+- Features:
 
 File Explorer Integration: Allows users to browse and select the appropriate batch file from their system.
 
-File Validation: 
+- File Validation: 
 
 Automatically checks if the selected batch file is valid and executable.
 
 Recent Files: Keeps a list of recently used batch files for quick access.
 
-Server Control
-
-- Effortless Server Management:
-
-Start Server:
+- Start Server:
 
 One-Click Start: Launches the server instantly using the selected batch file.
 Status Feedback: Displays immediate feedback on server start status.
 
-Stop Server:
+- Stop Server:
 
 Graceful Shutdown: Stops the server safely, ensuring all processes are properly terminated.
 Force Stop Option: Provides an option to force-stop the server if it becomes unresponsive.
 
-Restart Server:
+- Restart Server:
 
 Downtime Minimization: Ensures quick server restart to reduce downtime.
-
-Console Output
 
 - Real-Time Log Monitoring:
 
 Live Server Logs: Displays real-time server output in a scrollable and interactive text area.
 Search & Filter: Allows users to search and filter console logs for specific entries or errors.
 Copy & Export: Easily copy or export log data for analysis or troubleshooting.
-
-Command Execution
 
 - Direct Command Input:
 
@@ -69,7 +61,7 @@ Visual Status Indicators: Displays server’s current status (Online/Offline) wi
 Detailed Server Metrics: Shows essential server information such as IP address, port, player slots, CPU usage, memory usage, and uptime.
 Crash & Event Log: Logs and displays the last time the server crashed, was closed, or restarted, offering insights into server stability.
 
-Customization Options
+- Customization Options
 
 - Personalized User Interface:
 
