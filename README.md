@@ -105,6 +105,14 @@ Directory Navigation and Management:
 
 ===============================================================================
 
+Discord Webhook Tool
+
+- 🔗 Send Webhook Messages: Input a Discord webhook URL and send messages using different pre-set themes or custom messages.
+- 🤖 Customize Bot Name: Set a custom bot name for messages sent to Discord.
+- 📜 Message Embeds: Include a title, description, image URL, and footer in the Discord message embeds.
+
+===============================================================================
+
 🖥️ System Information
 
 - 🔍 Displays: System details like CPU, RAM, disk space, network interfaces, and more.
