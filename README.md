@@ -12,7 +12,6 @@ Overview: Intuitive interface for selecting the batch file used for server start
 - Batch File Selection:
 
 File Explorer Integration: Browse and select batch files directly from your system. 
-
 File Validation: Automatically verifies that the selected batch file is valid and executable.
 
 ----------------------—-----------------------—-----------------------—--
@@ -20,9 +19,7 @@ File Validation: Automatically verifies that the selected batch file is valid an
 📊 Real-Time Log Monitoring:
 
 Live Server Logs: View real-time server output in a scrollable and interactive text area.
-
 Search & Filter: Easily search and filter console logs for specific entries or errors.
-
 Copy & Export: Copy or export log data for further analysis or troubleshooting.
 
 ----------------------—-----------------------—-----------------------—--
