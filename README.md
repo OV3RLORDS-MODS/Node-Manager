@@ -103,3 +103,11 @@ Directory Navigation and Management:
 - Import Mods: Import mods from platforms like Google Drive, Dropbox, or GitHub.
 - Export Mods: Export all mods as a ZIP file, with the option to upload to Google Drive or GitHub.
 
+===============================================================================
+
+🖥️ System Information
+
+- 🔍 Displays: System details like CPU, RAM, disk space, network interfaces, and more.
+- ✅ Checks Compatibility: Compares your system against the requirements for running a Project Zomboid server.
+- 🔄 Updates Info: A button lets you refresh the data in real-time.
+
