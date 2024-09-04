@@ -37,10 +37,6 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
   
 ==============================================================================================================
 
- File Manager: 
-
-==============================================================================================================
-
 📂 Mod Directory Management:
 
 Select Mod Directory: Easily choose your mod directory, ensuring all your mods are organized in one place.
