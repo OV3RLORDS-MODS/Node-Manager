@@ -55,7 +55,7 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 
 📊 Real-Time Log Monitoring:
 
-Live Server Logs: Monitor server logs in real-time, search for specific entries, and export logs for analysis.
+- Live Server Logs: Monitor server logs in real-time, search for specific entries, and export logs for analysis.
 
 🎨 Customization Options:
 
