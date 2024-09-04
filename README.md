@@ -39,8 +39,8 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 
 📂 Mod Directory Management:
 
-Select Mod Directory: Easily choose your mod directory, ensuring all your mods are organized in one place.
-Navigate Through Directories: Use the Back button to navigate through directory history. 
+- Select Mod Directory: Easily choose your mod directory, ensuring all your mods are organized in one place.
+- Navigate Through Directories: Use the Back button to navigate through directory history. 
 
 🔍 Search and Sorting:
 
@@ -49,10 +49,24 @@ Sorting Options: Sort mods by name or date, making it easier to manage a large n
 
 ⚙️ Mod Installation and Management:
 
-Install Mod: Install new mods directly from ZIP files.
-Edit, Move, and Rename Mods: Right-click on mods to bring up a context menu with options to edit, move, or rename them.
+- Install Mod: Install new mods directly from ZIP files.
+- Edit, Move, and Rename Mods: Right-click on mods to bring up a context menu with options to edit, move, or rename them.
 Favorite Mods: Mark mods as favorites, which are highlighted for easy access.
 
 📊 Real-Time Log Monitoring:
 
 Live Server Logs: Monitor server logs in real-time, search for specific entries, and export logs for analysis.
+
+🎨 Customization Options:
+
+- Change Colors: Customize the interface by changing text and background colors for better readability or personal preference.
+  
+🌐 Webhook Integration:
+
+- Discord Webhook: Send a list of your mods to a Discord channel via webhook for easy sharing.
+  
+📦 Import and Export:
+
+- Import Mods: Import mods from platforms like Google Drive, Dropbox, or GitHub.
+- Export Mods: Export all mods as a ZIP file, with the option to upload to Google Drive or GitHub.
+
