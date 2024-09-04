@@ -51,7 +51,7 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 
 - Install Mod: Install new mods directly from ZIP files.
 - Edit, Move, and Rename Mods: Right-click on mods to bring up a context menu with options to edit, move, or rename them.
-Favorite Mods: Mark mods as favorites, which are highlighted for easy access.
+- Favorite Mods: Mark mods as favorites, which are highlighted for easy access.
 
 📊 Real-Time Log Monitoring:
 
