@@ -39,7 +39,7 @@ Command Line Interface: Embedded command line within the GUI for executing serve
 Command History: Stores command history, allowing users to re-run previous commands with ease.
 Auto-Complete: Offers command auto-completion based on server commands to enhance efficiency.
 
-Server Status Indicators
+*Server Status Indicators*
 
 - Comprehensive Server Monitoring:
 
