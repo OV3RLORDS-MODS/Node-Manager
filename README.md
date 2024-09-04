@@ -20,7 +20,7 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 - Search & Filter: Easily search and filter console logs for specific entries or errors.
 - Copy & Export: Copy or export log data for further analysis or troubleshooting.
 
-----------------------—-----------------------—-----------------------—--
+==============================================================================================================
 
 🔄 Server Status Indicators:
 
@@ -28,7 +28,7 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 - Detailed Server Metrics: View essential server information, including IP address, port, player slots, CPU usage, memory usage, and uptime.
 - Crash & Event Log: Track the last time the server crashed, was closed, or restarted for insights into server stability.
 
-----------------------—-----------------------—-----------------------—--
+==============================================================================================================
 
 🎨 Customization Options
 
@@ -36,7 +36,7 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 - Change Background Color: Modify the background color to suit different visual themes or accessibility needs.
 - Save Preferences: Your preferences are saved across sessions for a consistent user experience.
 
-----------------------—-----------------------—-----------------------—--
+==============================================================================================================
 
 🛠️ Persistent Settings:
 
