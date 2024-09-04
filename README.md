@@ -40,6 +40,6 @@ Node Manager is a free, intuitive application that allows you to manage your Pro
 
 🛠️ Persistent Settings:
 
-- Remember Last Used Batch File: Automatically loads the last used batch file for quick server startup.
+- Remembers Last Used Batch File: Automatically loads the last used batch file for quick server startup.
 - Automatic Save: All settings and preferences are automatically saved, ensuring Node Manager is always ready with your preferred configuration.
 
