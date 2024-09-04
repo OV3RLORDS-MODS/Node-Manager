@@ -40,7 +40,7 @@ Crash & Event Log: Track the last time the server crashed, was closed, or restar
 
 - Customization Options
 
-Personalized User Interface:Change Text Color: Adjust console text color for readability or personal preference.
+Change Text Color: Adjust console text color for readability or personal preference.
 
 Change Background Color: Modify the background color to suit different visual themes or accessibility needs.
 
