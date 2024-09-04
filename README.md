@@ -9,8 +9,6 @@ The Node Manager is a free tool designed to help you manage your game servers, s
 
 Seamlessly access and control your server's command line interface.
 
-Server Management GUI: Enhanced Feature Set
-
 - Batch File Selection
 
 Intuitive File Selection:
