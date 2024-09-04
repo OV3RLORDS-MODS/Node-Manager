@@ -2,7 +2,8 @@ Node Manager is a powerful tool in development by OV3RLORD, designed to simplify
 
 📂 What Is Node Manager?
 
-Node Manager is a free, intuitive application that allows you to manage your Project Zomboid game servers with ease. With Node Manager, you can start, stop, and configure your server, manage mods, and schedule tasks all from a user-friendly interface.
+Node Manager is a free, intuitive application that allows you to manage your Project Zomboid game servers with ease. With Node Manager, you can start, stop, and configure your server, manage mods, and schedule tasks all from a user-friendly interface. 
+
 
 🖥️ Terminal Access:
 
@@ -16,7 +17,7 @@ File Validation: Automatically verifies that the selected batch file is valid an
 
 ----------------------—-----------------------—-----------------------—--
 
-- Real-Time Log Monitoring:
+📊 Real-Time Log Monitoring:
 
 Live Server Logs: View real-time server output in a scrollable and interactive text area.
 
@@ -26,7 +27,7 @@ Copy & Export: Copy or export log data for further analysis or troubleshooting.
 
 ----------------------—-----------------------—-----------------------—--
 
-- Server Status Indicators:
+🔄 Server Status Indicators:
 
 Keep a close eye on your server with comprehensive monitoring tools.
 
@@ -38,7 +39,7 @@ Crash & Event Log: Track the last time the server crashed, was closed, or restar
 
 ----------------------—-----------------------—-----------------------—--
 
-- Customization Options
+🎨 Customization Options
 
 Change Text Color: Adjust console text color for readability or personal preference.
 
@@ -48,7 +49,7 @@ Save Preferences: Your preferences are saved across sessions for a consistent us
 
 ----------------------—-----------------------—-----------------------—--
 
-Persistent Settings:
+🛠️ Persistent Settings:
 
 Remember Last Used Batch File: Automatically loads the last used batch file for quick server startup.
 
