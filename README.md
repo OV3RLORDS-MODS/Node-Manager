@@ -23,21 +23,9 @@ File Explorer Integration: Allows users to browse and select the appropriate bat
 
 Automatically checks if the selected batch file is valid and executable.
 
-Recent Files: Keeps a list of recently used batch files for quick access.
+- Recent Files:
 
-- Start Server:
-
-One-Click Start: Launches the server instantly using the selected batch file.
-Status Feedback: Displays immediate feedback on server start status.
-
-- Stop Server:
-
-Graceful Shutdown: Stops the server safely, ensuring all processes are properly terminated.
-Force Stop Option: Provides an option to force-stop the server if it becomes unresponsive.
-
-- Restart Server:
-
-Downtime Minimization: Ensures quick server restart to reduce downtime.
+Keeps a list of recently used batch files for quick access.
 
 - Real-Time Log Monitoring:
 
