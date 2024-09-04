@@ -26,6 +26,8 @@ Search & Filter: Easily search and filter console logs for specific entries or e
 
 Copy & Export: Copy or export log data for further analysis or troubleshooting.
 
+----------------------—-----------------------—-----------------------—--
+
 - Server Status Indicators:
 
 Keep a close eye on your server with comprehensive monitoring tools.
@@ -33,6 +35,8 @@ Keep a close eye on your server with comprehensive monitoring tools.
 Visual Status Indicators: Instantly see if your server is online or offline with dynamic visual cues.
 Detailed Server Metrics: View essential server information, including IP address, port, player slots, CPU usage, memory usage, and uptime.
 Crash & Event Log: Track the last time the server crashed, was closed, or restarted for insights into server stability.
+
+----------------------—-----------------------—-----------------------—--
 
 - Customization Options
 
@@ -42,4 +46,6 @@ Save Preferences: Your preferences are saved across sessions for a consistent us
 Persistent Settings:
 Remember Last Used Batch File: Automatically loads the last used batch file for quick server startup.
 Automatic Save: All settings and preferences are automatically saved, ensuring Node Manager is always ready with your preferred configuration.
+
+----------------------—-----------------------—-----------------------—--
 
