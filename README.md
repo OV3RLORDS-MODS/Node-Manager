@@ -121,3 +121,8 @@ Discord Webhook Tool
 - ✅ Checks Compatibility: Compares your system against the requirements for running a Project Zomboid server.
 - 🔄 Updates Info: A button lets you refresh the data in real-time.
 
+
+IMPORTANT NOTICE:
+
+Please be aware that the Node Manager mod is protected by copyright and may not be reuploaded or redistributed without explicit written permission from me. This includes any form of sharing, uploading to other sites, or including in mod packs. Unauthorised distribution will result in immediate action being taken to protect the intellectual property rights of Node Manager.
+
