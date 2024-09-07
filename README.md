@@ -107,11 +107,11 @@ Directory Navigation and Management:
 
 Discord Webhook Tool
 
-🔗 Manage Webhooks: Add, edit, and save webhook URLs with easy validation. Select from a dropdown menu.
-✉️ Customize Messages: Personalize and send messages with customizable titles, descriptions, images, and footers. Predefined messages for server events like start, stop, and restart are included.
-🎨 Color Picker: Choose a color for your message embeds.
-📝 History & Export: Keep track of sent messages, clear history, or export it to a file.
-🔍 Search: Quickly find entries in your webhook history.
+- 🔗 Manage Webhooks: Add, edit, and save webhook URLs with easy validation. Select from a dropdown menu.
+- ✉️ Customize Messages: Personalize and send messages with customizable titles, descriptions, images, and footers. Predefined messages for server events like start, stop, and restart are included.
+- 🎨 Color Picker: Choose a color for your message embeds.
+- 📝 History & Export: Keep track of sent messages, clear history, or export it to a file.
+- 🔍 Search: Quickly find entries in your webhook history.
 
 Premade Messages:
 
