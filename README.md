@@ -107,9 +107,11 @@ Directory Navigation and Management:
 
 Discord Webhook Tool
 
-- 🔗 Send Webhook Messages: Input a Discord webhook URL and send messages using different pre-set themes or custom messages.
-- 🤖 Customize Bot Name: Set a custom bot name for messages sent to Discord.
-- 📜 Message Embeds: Include a title, description, image URL, and footer in the Discord message embeds.
+🔗 Manage Webhooks: Add, edit, and save webhook URLs with easy validation. Select from a dropdown menu.
+✉️ Customize Messages: Personalize and send messages with customizable titles, descriptions, images, and footers. Predefined messages for server events like start, stop, and restart are included.
+🎨 Color Picker: Choose a color for your message embeds.
+📝 History & Export: Keep track of sent messages, clear history, or export it to a file.
+🔍 Search: Quickly find entries in your webhook history.
 
 Premade Messages:
 
@@ -117,6 +119,7 @@ Premade Messages:
 - Stop Message 🛑: Alerts when the server goes down, helping players prepare for the next encounter.
 - Restart Message 🔄: Informs about a server restart, urging players to get ready for the action to resume.
 - Custom Message: Allows sending personalized messages with your own title, description, image, and footer.
+
   
 ===============================================================================
 
