@@ -112,14 +112,6 @@ Discord Webhook Tool
 - 🎨 Color Picker: Choose a color for your message embeds.
 - 📝 History & Export: Keep track of sent messages, clear history, or export it to a file.
 - 🔍 Search: Quickly find entries in your webhook history.
-
-Premade Messages:
-
-- Start Message 🧟: Notifies that a Project Zomboid server is starting, complete with an exciting description and image.
-- Stop Message 🛑: Alerts when the server goes down, helping players prepare for the next encounter.
-- Restart Message 🔄: Informs about a server restart, urging players to get ready for the action to resume.
-- Custom Message: Allows sending personalized messages with your own title, description, image, and footer.
-
   
 ===============================================================================
 
