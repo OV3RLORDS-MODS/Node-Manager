@@ -96,8 +96,8 @@ class MainApp(tk.Tk):
 
         self.notebook.add(self.terminal_tab, text="Terminal")
         self.notebook.add(self.file_manager_tab, text="File Manager")
-        self.notebook.add(self.mod_manager_tab, text="Mods")
-        self.notebook.add(self.player_management_tab, text="Player Management")
+        self.notebook.add(self.mod_manager_tab, text="Mods Manager")
+        self.notebook.add(self.player_management_tab, text="Player Manager")
         self.notebook.add(self.discord_tools_tab, text="Discord Tools")
         self.notebook.add(self.system_tab, text="System")
 
