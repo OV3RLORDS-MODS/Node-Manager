@@ -125,7 +125,7 @@ class MainApp(tk.Tk):
         self.notebook.select(self.info_tab)
 
     def open_discord_invite(self):
-        url = "https://discord.gg/RERh9UBY"
+        url = "https://discord.gg/W94eKGbP9Q"
         webbrowser.open(url)
 
     def open_github_repo(self):
